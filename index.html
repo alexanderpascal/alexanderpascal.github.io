@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Concepts of Design for MHIS</title>
+	<style type="text/css">
+		[class*='col-'] {
+			float: left;
+			background-color: #dcdcdc;
+		}
+		.col-1 {
+			max-width: 800px;
+		}
+		.col-2 {
+			width: 460px;
+			padding: 15px;
+			background-color: #a9a9a9;
+		}
+		.grid:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		img {
+			width: 445px; 
+			border: 0 250px 0 250px;
+		}
+		article {
+			padding: 20px;
+		}
+
+		
+	</style>
+</head>
+<body>
+<div class="col-1">
+	<h1>Analysis of Two Sites</h1>
+	<article>
+		<h2>Which two websites are you inspired by?</h2>
+		<p>This is a comparison of two webpages.  Hereafter <a href="http://www.elderscrollsonline.com" target="_blank">www.elderscrollsonline.com</a> will be referred to as ESO, and <a href="http://www.manorhallschool.com" target="_blank">www.manorhallschool.com</a> will be referred to as MHIS.</p>
+	</article>
+	<article>
+		<h2>How do they exihibit effective use of space, size, or balance?</h2>
+		<p>
+			<h3>Observations on ESO's successful use of space, balance, and size:</h3>
+			<ul>
+				<li>Minimalist design eschews borders in favor of contrasting colors.</li>
+				<li>Emphasis of the detailed artwork of the product through grid panels reminiscent of &#39pinned&#39 formats.</li>
+				<li>Upon resizing, balance is always in favor of the art presented.
+					<ul>
+						<li>The code is adaptive, resizing the image for smaller browser frames, and then changing the layout entirely.  This is likely because the art detail becomes deemphasized as the images shrink.  </li>
+						<li>o	The changed layout removes the right column, and then reduces to a single column.  In the single column, smaller frames become larger to fill a normative column dimension and maintain a balance in favor of the art detail.</li>
+						<li>o	Image captions begin as an overlay on the image, but are moved to fill a space below the image as the viewing frame shrinks.  Caption font size, however, remains the same after an initial resizing.  This opens more screen real estate for the smaller images, to maintain the emphasis on art detail.</li>
+						<li>o	In smaller frames, the background image could crowd the content, so the background is kept centered, but allowed to overflow the page.  This is acceptable, because the background is designed to frame the content in deemphasized art (faded) and at smaller viewing windows the content becomes framed by the device.</li>
+					</ul>
+				</li>
+				<li>Sale items are place towards the top, and are emphasized second to the focus widget.</li>
+				<li>The focus widget is a slideshow of four frames that survey significant links found elsewhere on the page.</li>
+				<li>Links are collapsed into dropdown menus, minimizing the text on the page.</li>
+				<li>The full page view places link text at the top of the image that forms the link surface.  This assists the flow down the page.</li>
+				<li>The News section is placed partially inside the bottom of a full page view, suggesting that the user may scroll down for more content.</li>
+				<li>Customer-related content is placed below purchase content, suggesting that the primary purpose of the page is to sell the product.</li>
+				<li>The slideshow transitions images left, keeping consistent with a left-to-right viewing flow.</li>
+			</ul>
+			<h3>Observations on MHIS's successful use of space, balance, and size:</h3>
+			<ul>
+				<li>Important information is placed to the left, keeping with a left-to-right reading flow.</li>
+				<li>The focus of the page is a large slideshow depicting student life.</li>
+				<li>Important news is framed to the left to emphasize it over the unchanging content.</li>
+				<li>The core philosophies of the school are displayed at center.</li>
+				<li>The background is neutral, keeping attention on the content.</li>
+				<li>The page is organized in one column, with the Latest News set to the side of the column for emphasis.</li>
+				<li>The color scheme is largely consistent.</li>
+				<li>The toolbars at the top are split between page links and content links within the page.</li>
+				<li>The slideshow, page links, content links, and latest news form a consistent header across the entire site.</li>
+			</ul>
+		</p>
+	</article>
+	<article>
+		<h2>What makes them similar or different?</h2>
+		<p>
+			<ul>
+				<li>These sites serve very different purposes, which certainly will guide the designer to different concepts. </li>
+				<li>The school site is partially about expression information about a community, so it is dense with text.  The game site is partially to sell a beautiful product, so it is dense with art.  Both of them attempt to reach a different audience.</li>
+				<li>The game site is entirely adaptive to a wide range of viewing windows.  The school site is not.</li>
+				<li>Both of them maintain a unifying feature that brands the site.  For the game site, it is the logo, but also the artistic motif and color palette that unifies the site.  For the school site, it is a bit the color palette, but mostly the cluttered header frame.</li>
+			</ul>
+		</p>
+	</article>
+</div>
+<div class="col-2">
+		<a href="http://www.elderscrollsonline.com" target="_blank"><img src="images/ESO.png"></a>
+		<a href="http://www.manorhallschool.com" target="_blank"><img src="images/MHIS.png"></a>
+</div>
+</body>
+</html>
