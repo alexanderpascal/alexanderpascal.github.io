@@ -15,26 +15,39 @@
 			padding: 15px;
 			background-color: #a9a9a9;
 		}
-		.grid:after {
-			content: "";
-			display: table;
-			clear: both;
+		h1 {
+			font-size: 3.24em;
 		}
 		img {
-			width: 445px; 
-			border: 0 250px 0 250px;
+			width: 100%; 
+			margin:10px;
 		}
 		article {
 			padding: 20px;
 		}
-		.thumb {
-			display: inline;
-		}
-
 		
+		strong {
+			padding-top: 10px;
+		}
+		.col-1-1 {
+			width: 33%;
+		}
+		.col-1-2 {
+			width: 33%;
+		}
+		.col-1-3 {
+			width: 33%;
+		}
+		.clearfix:after {
+			content: ".";
+			visibility: hidden;
+			display:block;
+			height: 0;
+			clear: both;
+		}
 	</style>
 </head>
-<body>
+<body class="clearfix">
 <div class="col-1">
 <section>
 	<h1>Analysis of Two Sites</h1>
@@ -92,18 +105,23 @@
 	</article>
 </section>
 <section>
+	<h2>Thumbnail Sketches</h2>
 	<article>
-		<h2>Thumbnail Sketches</h2>
-		<ul class="thumb">
-			<li>
-				<img src="/images/MHISfloat.png">
-				<strong>Float Concept for MHIS Redesign</strong>
-				<p></p>
-			</li>
-			<li>
-
-			</li>
-		</ul>
+	<div class="col-1-1">
+		<img src="https://generalassembly.mybalsamiq.com/mockups/2350022.png?key=febc19af129e996622f21e89cefa00cc03fd72b0"><br>
+		<strong>Float Concept for MHIS Frontpage</strong>
+		<p>This design concept is intended to compensate for the cultural challenges that this design will meet, namely that many of the users read English as a second langauge, and are accustomed to reading right-to-left in their native language.  Thus the intent is to direct attention first to the center of the pager, and then to expand out.  The background image is a wide angle shot of the school campus, and each bubble is an image of active students.  The user experience is to simulate exploring the school through visually entering the image of the campus.  Redundant links would be provided by dropdown menus for the experienced user to quickly access the page they wish.</p>
+	</div>
+	<div class="col-1-2">
+		<img src="https://generalassembly.mybalsamiq.com/mockups/2368416.png?key=febc19af129e996622f21e89cefa00cc03fd72b0"><br>
+		<strong>MHIS Content Page English</strong>
+		<p>This is how the longer, sought-after content of the website could be formated.  Side links create redundant navigation, and the logo returns the user to the homepage.  This layout biases a left-to-right read pattern.</p>
+	</div>	
+	<div class="col-1-3">
+	<img src="https://generalassembly.mybalsamiq.com/mockups/2368400.png?key=febc19af129e996622f21e89cefa00cc03fd72b0"><br>
+		<strong>MHIS Content Page Arabic</strong>
+		<p>This is how the longer, sought-after content of the website could be formated.  Side links create redundant navigation, and the logo returns the user to the homepage.  This layout biases a right-to-left read pattern.</p>
+	</div>
 	</article>
 </section>
 </div>
