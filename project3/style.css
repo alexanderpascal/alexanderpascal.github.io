@@ -1,11 +1,12 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
 body {
 	background: url(assets/background.jpg);
 	background-size: cover;
-	background-color: dimgray;
-	margin: 0;
+	
 }
 div {
 	margin: 320px auto auto 100px;
+	
 }
 header {
 	background: url(assets/stripes.png);
@@ -19,14 +20,19 @@ hr {
 	border-color: #fe706e;
 }
 p {
-	font-family: sans-serif;
+	font-family: helvetica;
 	color: white;
-	font-size: 18px;
-	font-weight: normal;
+	font-size: 25px;
+	font-weight: lighter;
+	margin: 20px 0;
 }
-input[type="submit"] {
+a {
+	height: 74px;
+	margin-top: 10px;
+}
+/*input[type="submit"] {
 	border: 0;
 	background: url(assets/btn_store.png);
 	width: 246px;
 	height: 74px;
-}
+}*/
