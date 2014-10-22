@@ -1,0 +1,32 @@
+body {
+	background: url(assets/background.jpg);
+	background-size: cover;
+	background-color: dimgray;
+	margin: 0;
+}
+div {
+	margin: 320px auto auto 100px;
+}
+header {
+	background: url(assets/stripes.png);
+	background-repeat: repeat-x;
+}
+hr {
+	width: 45px;
+	margin-left: 0;
+	color: #fe706e;
+	background-color: #fe706e;
+	border-color: #fe706e;
+}
+p {
+	font-family: sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight: normal;
+}
+input[type="submit"] {
+	border: 0;
+	background: url(assets/btn_store.png);
+	width: 246px;
+	height: 74px;
+}
