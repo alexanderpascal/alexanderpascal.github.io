@@ -2,11 +2,9 @@
 body {
 	background: url(assets/background.jpg);
 	background-size: cover;
-	
 }
 div {
 	margin: 320px auto auto 100px;
-	
 }
 header {
 	background: url(assets/stripes.png);
@@ -14,7 +12,7 @@ header {
 }
 hr {
 	width: 45px;
-	margin-left: 0;
+	margin: 20px auto 0 0;
 	color: #fe706e;
 	background-color: #fe706e;
 	border-color: #fe706e;
