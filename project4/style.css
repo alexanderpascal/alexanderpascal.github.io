@@ -59,9 +59,9 @@ figure.food {
 	display:inline-block;
 }
 .food img { border-radius:15px; }
-figure:first-child { position:absolute; left:0; }
-figure:nth-child(2) { position:absolute; left:500px; }
-figure:last-child { position:absolute; right:0; }
+figure.food:first-child { position:absolute; left:0; }
+figure.food:nth-child(2) { position:absolute; left:500px; }
+figure.food:last-child { position:absolute; right:0; }
 
 a {
 	color: rgb(240,208,95);
