@@ -1,0 +1,43 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body{
+	unicode-bidi: bidi-override;
+	direction: rtl;
+
+	background: rgb(31,17,8);
+	color: gold;
+}
+header {
+	
+
+}
+footer {
+
+}
+div {
+	display: relative;
+	
+}
+h1 {
+	display: relative;
+}
+ul {
+	padding: 10px;
+	background: gray;
+	text-align: left;
+}
+li {
+	display: inline;
+	padding: 0 0 0 40px;
+}
+.food {
+	display: absolute;
+	border: 1px solid gold;
+	border-radius: 15px;
+	
+}
+a {
+	color: gold;
+}
+hr {
+	border: solid gold;
+}
