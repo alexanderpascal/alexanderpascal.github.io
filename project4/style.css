@@ -4,7 +4,7 @@ body{
 	direction: rtl;
 
 	background: rgb(31,17,8);
-	color: gold;
+	color: rgb(240,208,95);
 }
 header {
 	
@@ -22,7 +22,7 @@ h1 {
 }
 ul {
 	padding: 10px;
-	background: gray;
+	background: rgb(2,1,0);
 	text-align: left;
 }
 li {
@@ -31,13 +31,13 @@ li {
 }
 .food {
 	display: absolute;
-	border: 1px solid gold;
+	border: 1px solid rgb(240,208,95);
 	border-radius: 15px;
 	
 }
 a {
-	color: gold;
+	color: rgb(240,208,95);
 }
 hr {
-	border: solid gold;
+	border: solid rgb(240,208,95);
 }
