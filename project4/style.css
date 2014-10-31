@@ -56,8 +56,9 @@ li {
 figure.food {
 	border: 1px solid rgb(240,208,95);
 	border-radius: 15px;
-	
+	display:inline-block;
 }
+.food img { border-radius:15px; }
 a {
 	color: rgb(240,208,95);
 }
