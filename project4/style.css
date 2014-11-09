@@ -27,7 +27,8 @@
 body{
 	unicode-bidi: bidi-override;
 	direction: rtl;
-
+	font-family: AmiriWeb;
+	font-weight: 700;
 	background: rgb(31,17,8);
 	color: rgb(240,208,95);
 }
@@ -36,7 +37,7 @@ header {
 
 }
 footer {
-
+	
 }
 h1 {
 	font-family: AmiriWeb;
@@ -53,19 +54,41 @@ li {
 	display: inline;
 	padding: 0 0 0 40px;
 }
-figure.food {
+section {background: yellow;}
+figure {
+		border: 1px solid rgb(240,208,95);
+		display: inline;
+		
+	}
+	.food-1 {
+		background: red;
+		z-index: -1;
+	}
+	.food-2 {
+		background: blue;
+		z-index: 0;
+		left: 420px; /*.7(root width)*/
+		top: 189px; /*.7 (root height)*/
+	}
+	.food-3 {
+		background: green;
+		z-index: 1;
+		left: 840px;  /*1.4(root width)*/
+		top: 378px;  /*1.4(root height)*/
+	}
+
+
+/*figure.food {
 	border: 1px solid rgb(240,208,95);
 	border-radius: 15px;
 	display:inline-block;
-}
-.food img { border-radius:15px; }
+}*/
+/*.food img { border-radius:15px; }
 figure.food:first-child { position:absolute; left:0; }
 figure.food:nth-child(2) { position:absolute; left:500px; }
 figure.food:last-child { position:absolute; right:0; }
-
+*/
 a {
 	color: rgb(240,208,95);
 }
-hr {
-	border: solid rgb(240,208,95);
-}
+
