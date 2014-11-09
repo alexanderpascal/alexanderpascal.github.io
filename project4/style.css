@@ -1,5 +1,4 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
 @font-face {
     font-family: AmiriWeb;
     font-style: normal;
@@ -24,36 +23,34 @@
          url('fonts/amiri-slanted.woff') format('woff'),
          url('fonts/amiri-slanted.ttf')  format('truetype');
 }
-
+@import url('http://fonts.googleapis.com/earlyaccess/lateef.css');
+  /* font-family: 'Lateef', serif; */
 
 body{
-	/*unicode-bidi: bidi-override;
-	direction: rtl;*/
-	font-family: Amiriweb, serif;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	font-family: 'Lateef', serif;
 	font-style: normal;
 	font-weight: 400;
 	background: rgb(31,17,8);
 	color: rgb(240,208,95);
 }
 header {
-	unicode-bidi: bidi-override;
-	direction: rtl;
+	/*unicode-bidi: bidi-override;
+	direction: rtl;*/
 	display: inline;
 	border-bottom: 5px solid gold;
 	height: 80px;
-	
 }
 footer {
-	unicode-bidi: bidi-override;
-	direction: rtl;
-	height: 40px;
+	/*unicode-bidi: bidi-override;
+	direction: rtl;*/
 	border-top: 5px solid gold;
 	position: absolute;
 	bottom: 0;
-
 }
 h1 {
-	font-family: AmiriWeb;
+	font-family: 'AmiriWeb', serif;
 	font-style: normal;
 	font-weight:400;
 }
@@ -68,11 +65,14 @@ li {
 }
 a {
 	color: rgb(240,208,95);
+	text-decoration: none;
 }
 section {
 	transition: 0s background;
 }
 figcaption {
+	unicode-bidi: bidi-override;
+	direction: rtl;
 	margin: 118px 0 0 0;
 	color: gold;
 	font-size: 34px;
@@ -86,7 +86,6 @@ figcaption {
 	float: left;
 	clear: both;
 }
-
 .food-1 {
 	background: url(images/tabbouleh.jpg);
 	opacity: .3;
@@ -98,7 +97,6 @@ figcaption {
 	opacity: .3;
 	z-index: 0;
 	margin: -102px 0 0 365px;
-
 }
 .food-3 {
 	background: url(images/biryani.jpg);
@@ -110,7 +108,6 @@ figcaption {
 	z-index: 999;
 	opacity: 1;
 	transition: 1s ease;
-
 }
 .food-2:hover {
 	z-index: 999;
@@ -118,8 +115,8 @@ figcaption {
 	transition: 1s ease;
 }
 .food-3:hover {
-	opacity: 999;
-	z-index: 2;
+	opacity: 1;
+	z-index: 999;
 	transition: 1s ease;
 }
 
