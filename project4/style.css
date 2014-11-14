@@ -29,14 +29,11 @@
 body{
 	unicode-bidi: bidi-override;
 	direction: rtl;
-<<<<<<< HEAD
-	font-family: AmiriWeb;
-	font-weight: 700;
-=======
+	/*font-family: AmiriWeb;
+	font-weight: 700;*/
 	font-family: 'Lateef', serif;
 	font-style: normal;
 	font-weight: 400;
->>>>>>> origin/master
 	background: rgb(31,17,8);
 	color: rgb(240,208,95);
 }
@@ -45,34 +42,36 @@ header {
 	direction: rtl;*/
 	display: inline;
 	border-bottom: 5px solid gold;
-	height: 80px;
+
+	
 }
 footer {
-<<<<<<< HEAD
-	
-=======
 	/*unicode-bidi: bidi-override;
 	direction: rtl;*/
 	border-top: 5px solid gold;
+	
+	float: left;
+}
+#headerLogo {
 	position: absolute;
-	bottom: 0;
->>>>>>> origin/master
+	right: -20px;
+	top: 15px;
 }
 h1 {
-	font-family: 'AmiriWeb', serif;
+	font-family: AmiriWeb, serif;
 	font-style: normal;
 	font-weight:400;
+	padding: 125px 20px 0 0;
 }
 ul {
 	padding: 10px;
-	background: rgb(2,1,0);
 	text-align: left;
 }
 li {
 	display: inline;
 	padding: 0 0 0 40px;
 }
-<<<<<<< HEAD
+/*
 section {background: yellow;}
 figure {
 		border: 1px solid rgb(240,208,95);
@@ -86,31 +85,17 @@ figure {
 	.food-2 {
 		background: blue;
 		z-index: 0;
-		left: 420px; /*.7(root width)*/
-		top: 189px; /*.7 (root height)*/
+		left: 420px;      ---.7(root width) ---
+		top: 189px;  ---.7 (root height)---
 	}
 	.food-3 {
 		background: green;
 		z-index: 1;
-		left: 840px;  /*1.4(root width)*/
-		top: 378px;  /*1.4(root height)*/
+		left: 840px;   ---1.4(root width)---
+		top: 378px;   ---1.4(root height)---
 	}
-
-
-/*figure.food {
-	border: 1px solid rgb(240,208,95);
-	border-radius: 15px;
-	display:inline-block;
-}*/
-/*.food img { border-radius:15px; }
-figure.food:first-child { position:absolute; left:0; }
-figure.food:nth-child(2) { position:absolute; left:500px; }
-figure.food:last-child { position:absolute; right:0; }
 */
-a {
-	color: rgb(240,208,95);
-}
-=======
+
 a {
 	color: rgb(240,208,95);
 	text-decoration: none;
@@ -135,31 +120,31 @@ figcaption {
 	clear: both;
 }
 .food-1 {
-	background: url(images/tabbouleh.jpg);
+	background: url(images/tabbouleh.png);
 	opacity: .3;
 	z-index: -1;
 	margin: 30px 0 0 204px;
 }
 .food-2 {
-	background: url(images/shawarma.jpg);
+	background: url(images/shawarma.png);
 	opacity: .3;
 	z-index: 0;
 	margin: -102px 0 0 365px;
 }
 .food-3 {
-	background: url(images/biryani.jpg);
+	background: url(images/biryani.png);
 	opacity: .3;
 	z-index: 1;
 	margin: -102px 0 0 526px;
 }
 .food-1:hover {
-	z-index: 999;
 	opacity: 1;
+	z-index: 999;
 	transition: 1s ease;
 }
 .food-2:hover {
-	z-index: 999;
 	opacity: 1;
+	z-index: 999;
 	transition: 1s ease;
 }
 .food-3:hover {
@@ -172,5 +157,5 @@ figcaption {
 
 
 
->>>>>>> origin/master
+
 
