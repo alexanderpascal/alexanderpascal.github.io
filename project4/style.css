@@ -27,8 +27,7 @@
   /* font-family: 'Lateef', serif; */
 
 body{
-	unicode-bidi: bidi-override;
-	direction: rtl;
+	
 	/*font-family: AmiriWeb;
 	font-weight: 700;*/
 	font-family: 'Lateef', serif;
@@ -49,7 +48,6 @@ footer {
 	/*unicode-bidi: bidi-override;
 	direction: rtl;*/
 	border-top: 5px solid gold;
-	
 	float: left;
 }
 #headerLogo {
@@ -101,10 +99,11 @@ a {
 	text-decoration: none;
 }
 section {
-	transition: 0s background;
+	clear: both;
+	/*transition: 0s background;*/
 }
 figcaption {
-	unicode-bidi: bidi-override;
+	
 	direction: rtl;
 	margin: 118px 0 0 0;
 	color: gold;
@@ -139,17 +138,17 @@ figcaption {
 }
 .food-1:hover {
 	opacity: 1;
-	z-index: 999;
+	z-index: 2;
 	transition: 1s ease;
 }
 .food-2:hover {
 	opacity: 1;
-	z-index: 999;
+	z-index: 2;
 	transition: 1s ease;
 }
 .food-3:hover {
 	opacity: 1;
-	z-index: 999;
+	z-index: 2;
 	transition: 1s ease;
 }
 
