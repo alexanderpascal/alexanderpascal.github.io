@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Prosto+One);
+@import url(http://fonts.googleapis.com/css?family=Niconne);
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+
+body {
+	background: url(images/foodT.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: gold;
+}
+header {
+	background-color: black;
+	border-bottom: 3px solid #B29912;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+	font-size: 1.4em;
+}
+hr {
+	width: 200px;
+	margin: 0 auto;
+	border: 1px solid gold;
+}
+h1 {
+	margin: -70px 0 -10px 40px;
+	font-size: 4em;
+	font-family: 'Prosto One', cursive;
+}
+
+h3 {
+	color: black;
+	margin: 10% 0 -20px 0;
+	font-size: 5em;
+	font-family: 'Niconne', cursive;
+	font-weight: lighter;
+}
+p {
+	color: black;
+	font-family: 'Niconne', cursive;
+	font-weight: lighter;
+	font-size: 40px;
+
+}
+a {
+	color: gold;
+	text-decoration: none;
+	padding: 15px;
+	border: 2px solid #B29912;
+	border-radius: 30px;
+	background-color: black;
+	font-family: 'Prosto One', cursive;
+
+}

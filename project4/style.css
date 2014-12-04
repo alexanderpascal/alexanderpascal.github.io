@@ -1,4 +1,6 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
+@import url('http://fonts.googleapis.com/earlyaccess/lateef.css');
+  /* font-family: 'Lateef', serif; */
 @font-face {
     font-family: AmiriWeb;
     font-style: normal;
@@ -23,8 +25,9 @@
          url('fonts/amiri-slanted.woff') format('woff'),
          url('fonts/amiri-slanted.ttf')  format('truetype');
 }
-@import url('http://fonts.googleapis.com/earlyaccess/lateef.css');
-  /* font-family: 'Lateef', serif; */
+.lateef {
+	font-family: 'Lateef', serif;
+}
 
 body{
 	
