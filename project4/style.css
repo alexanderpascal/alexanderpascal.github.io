@@ -30,7 +30,12 @@
 }
 
 body{
+<<<<<<< Updated upstream
 	
+=======
+	/*unicode-bidi: bidi-override;*/
+	direction: rtl;
+>>>>>>> Stashed changes
 	/*font-family: AmiriWeb;
 	font-weight: 700;*/
 	font-family: 'Lateef', serif;
